@@ -1,0 +1,22 @@
+.sbs-plate { margin:1em auto; border-collapse:collapse }
+.sbs-plate .sbs-well {
+    cursor:pointer;
+    width:30px; height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif; font-size:13px
+}
+.sbs-plate td.sbs-well.clicked {
+    background-color:yellow;
+    font-weight:bold; color:red;
+}
+
+.sbs-plate .sbs-range-decorator {
+    background-color:grey;
+    font-weight:bold; color:red;
+}
+
+.sbs-plate .selected {
+    background-color:yellow;
+    font-weight:bold; color:red;
+}
